@@ -1,0 +1,32 @@
+.main {
+  width: 35%;
+  border-right: 3px solid #FFCB77;
+  padding-right: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.author {
+  font-size: small;
+  font-style: italic;
+  display: inline;
+}
+
+.date {
+  font-size: small;
+  font-weight: 200;
+  font-style: italic;
+  display: inline;
+  float: right;
+}
+
+.content {
+  padding: 3px;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    width: 70%;
+  }
+}

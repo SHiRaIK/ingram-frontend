@@ -1,0 +1,15 @@
+.main {
+  position: absolute;
+  top: 0;
+  min-width: 100vw;
+  height: 8px;
+  width: 100vw;
+  background-color: #17C3B2;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-columns: repeat(16, auto);
+}
+
+.segment {
+  width: 100px;
+}

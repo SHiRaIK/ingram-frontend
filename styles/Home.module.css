@@ -1,0 +1,32 @@
+.container {
+  padding: 0 0rem;
+}
+
+.main {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.inputWrapper {
+  position: sticky;
+  height: 70px;
+  background-color: #eee;
+  bottom: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 70px;
+  padding: 0px 40px 5px 40px;
+  margin-top: 8px;
+  overflow: auto;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .main {
+    grid-template-columns: auto;
+  }
+}

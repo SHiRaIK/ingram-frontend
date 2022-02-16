@@ -1,0 +1,24 @@
+.main {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.input {
+  background-color: #ddd;
+  resize: none;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 10px 6px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2c2c2c;
+  margin: 0 auto;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.input:focus {
+  outline: none;
+}

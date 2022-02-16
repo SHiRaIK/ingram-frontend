@@ -1,0 +1,29 @@
+.main {
+  height: 100%;
+  margin: 0;
+  padding-top: 20px;
+  box-shadow: 3px 2px 7px #9e9e9e;
+}
+
+.main h3 {
+  text-align: center;
+}
+
+.tile {
+  width: 100%;
+  padding: 13px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+.tile:hover {
+  background-color: #1DA0A8;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: none;
+  }
+}
