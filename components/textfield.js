@@ -1,15 +1,19 @@
 import styles from '../styles/TextField.module.css'
 import { addMessage } from './messages';
+import { sendMessage } from '../pages/api/backend';
 //import { sendMessage } from '../pages/api/backend'
 
 function handleEnter(e) {
+  /*
   addMessage({
     author: '__self',
     type: 'text',
     date: Date.now(),
     content: e.target.value,
   })
+  */
 
+  sendMessage('Test', e.target.value);
   e.target.value = '';
 }
 
